@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2582645987585567532}
   - component: {fileID: 6949773547976028124}
   m_Layer: 0
-  m_Name: Food_Sandwich_01
+  m_Name: good1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,3 +121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51980493f1dd945b5b3d26014fe84d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minSpeed: 12
+  maxSpeed: 16
+  maxTorque: 8
+  xRange: 4
+  ySpawnPos: -6
+  pointValue: 25
+  explosionEffect: {fileID: 3603594204106460700, guid: 743ce290c74ae49c19aa3f128322fc7e,
+    type: 3}
